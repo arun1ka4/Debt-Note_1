@@ -10,5 +10,4 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 ## Fitur
 - Tambah data hutang
 - Edit dan hapus data
-- Tampilan responsif
 - Total perhitungan otomatis
