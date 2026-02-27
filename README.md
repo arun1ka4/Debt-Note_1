@@ -27,7 +27,7 @@ Sebagai struktur dasar halaman (AppBar dan Body).
 Digunakan untuk menampilkan daftar data buku.
 
 ### TextField
-Digunakan sebagai input data (minimal 3 field).
+Sebagai input data.
 
 ### ElevatedButton
 Digunakan sebagai tombol aksi (Simpan, Edit, Hapus).
