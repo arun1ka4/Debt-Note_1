@@ -16,6 +16,13 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 
 | Widget | Penggunaan |
 |:---------:|:---------:|:--------:|
+| StatefulWidget | menangani perubahan data (state) ketika menambah, mengedit, dan menghapus data.|
+| MaterialApp | Sebagai root aplikasi untuk mengatur tema dan navigasi.|
+| Scaffold | Sebagai struktur dasar halaman (AppBar dan Body). |
+| ListView | menampilkan daftar data buku. |
+| TextField | Sebagai input data |
+| ElevatedButton | sebagai tombol aksi (Simpan, Edit, Hapus). |
+| Navigator | Digunakan untuk berpindah antar halaman (Multi Page Navigation). |
 
 ### StatefulWidget
 Digunakan untuk menangani perubahan data (state) ketika menambah, mengedit, dan menghapus data.
