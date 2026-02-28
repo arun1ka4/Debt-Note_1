@@ -1,4 +1,4 @@
-<h1 align="center"> DebtNote </h1>
+<h1 align="center"> DebtNote - Pencatat Hutang </h1>
 
 ## Dibuat Oleh
 Nama: Nayla Lelyanggraheni Hutomo  
