@@ -1,19 +1,19 @@
 <h1 align="center"> DebtNote - Pencatat Hutang </h1>
 
-## Dibuat Oleh
+## ✍️Dibuat Oleh
 Nama: Nayla Lelyanggraheni Hutomo  
 Mata Kuliah: Pemrograman Berbasis Web 
 
-## Table of Content
+## ✨Table of Content
 - [Deskripsi](#Deskripsi)
 - [Fitur](#fitur)
 - [Widget yang digunakan](#Widget-yang-Digunakan)
 - [UI aplikasi](#UI-Aplikasi)
 
-## Deskripsi
+## 📌Deskripsi
 Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan mencatat hutang dari pelanggan.
 
-## Fitur
+## ⚙️Fitur
 
 | Fitur | Deskripsi |
 |:---------:|---------|
@@ -22,7 +22,7 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 | Update | Mengubah data hutang dengan menekan salah satu data lalu klik tombol edit |
 | Delete | Menghapus data hutang dengan menekan salah satu data lalu klik tombol delete |
 
-## Widget yang Digunakan
+## 📱Widget yang Digunakan
 
 | Widget | Penggunaan |
 |---------|---------|
@@ -35,7 +35,7 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 | Navigator | Digunakan untuk berpindah antar halaman (Multi Page Navigation). |
 
 
-## UI Aplikasi
+## 🎨UI Aplikasi
 
 ### Home Page
 <img width="400" height="auto" alt="localhost_59543_(iPhone SE)" src="https://github.com/user-attachments/assets/869759e2-7437-4dde-a4d7-130e4e4ed5f7" />
