@@ -1,4 +1,4 @@
-# Aplikasi Pencatat Hutang UMKM
+<h1 align="center"> DebtNote </h1>
 
 ## Dibuat Oleh
 Nama: Nayla Lelyanggraheni Hutomo  
