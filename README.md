@@ -1,7 +1,7 @@
 # Aplikasi Pencatat Hutang UMKM
 
 ## Dibuat Oleh
-Nama: Nela  
+Nama: Nayla Lelyanggraheni Hutomo  
 Mata Kuliah: Pemrograman Berbasis Web 
 
 ## Table of Content
