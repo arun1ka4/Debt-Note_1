@@ -5,12 +5,12 @@ Nama: Nela
 Mata Kuliah: Pemrograman Berbasis Web 
 
 ## Table of Content
-- [Tentang aplikasi](#deskripsi)
+- [Deskripsi](#Deskripsi)
 - [Fitur](#fitur)
 - [Widget yang digunakan](#Widget-yang-Digunakan)
 - [UI aplikasi](#UI-Aplikasi)
 
-## Tentang Aplikasi
+## Deskripsi
 Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan mencatat hutang dari pelanggan.
 
 ## Fitur
