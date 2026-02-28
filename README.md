@@ -15,7 +15,10 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 
 ## Fitur
 | Fitur | Deskripsi |
-| Create |  |
+| Create | Menambah data hutang baru terdiri dari nama penghutang, jumlah hutang, tanggal hutang dan jatuh tempo |
+| Read | Menampilkan data hutang dalam bentuk daftar |
+| Update | Mengubah data hutang dengan menekan salah satu data lalu klik tombol edit |
+| Delete | Menghapus data hutang dengan menekan salah satu data lalu klik tombol delete |
 
 ## Widget yang Digunakan
 
