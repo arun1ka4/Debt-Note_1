@@ -3,7 +3,7 @@
 ## Dibuat Oleh
 Nama: Nela  
 Mata Kuliah: Pemrograman Berbasis Web 
-[![GitHub issues](https://img.shields.io/github/issues/username/repo)](https://github.com/username/repo/issues)
+
 ## Deskripsi
 Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan mencatat hutang dari pelanggan.
 
@@ -13,6 +13,9 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 - Total perhitungan otomatis
 
 ## Widget yang Digunakan
+
+| Widget | Penggunaan |
+
 
 ### StatefulWidget
 Digunakan untuk menangani perubahan data (state) ketika menambah, mengedit, dan menghapus data.
