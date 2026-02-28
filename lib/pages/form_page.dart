@@ -23,24 +23,37 @@ class _FormPageState extends State<FormPage> {
   DateTime? selectedTanggalHutang;
   DateTime? selectedTanggalJatuhTempo;
 
-  @override
-  void initState() {
-    super.initState();
-    namaController =
-        TextEditingController(text: widget.debt?.nama ?? "");
-    jumlahController =
-        TextEditingController(text: widget.debt?.jumlah.toString() ?? "");
-    tanggalHutangController =
-        TextEditingController(
-            text: widget.debt?.tanggalHutang != null
-                ? "${widget.debt!.tanggalHutang.day}/${widget.debt!.tanggalHutang.month}/${widget.debt!.tanggalHutang.year}"
-                : "");
-    tanggalJatuhTempoController =
-        TextEditingController(
-            text: widget.debt?.tanggalHutang != null
-                ? "${widget.debt!.tanggalHutang.day}/${widget.debt!.tanggalHutang.month}/${widget.debt!.tanggalHutang.year}"
-                : "");
+@override
+void initState() {
+  super.initState();
+
+  namaController =
+      TextEditingController(text: widget.debt?.nama ?? "");
+
+  jumlahController =
+      TextEditingController(
+          text: widget.debt?.jumlah != null
+              ? widget.debt!.jumlah.toString()
+              : "");
+
+  if (widget.debt != null) {
+    selectedTanggalHutang = widget.debt!.tanggalHutang;
+    selectedTanggalJatuhTempo = widget.debt!.tanggalJatuhTempo;
+
+    tanggalHutangController = TextEditingController(
+      text:
+          "${selectedTanggalHutang!.day}/${selectedTanggalHutang!.month}/${selectedTanggalHutang!.year}",
+    );
+
+    tanggalJatuhTempoController = TextEditingController(
+      text:
+          "${selectedTanggalJatuhTempo!.day}/${selectedTanggalJatuhTempo!.month}/${selectedTanggalJatuhTempo!.year}",
+    );
+  } else {
+    tanggalHutangController = TextEditingController();
+    tanggalJatuhTempoController = TextEditingController();
   }
+}
 
   @override
   void dispose() {
@@ -53,11 +66,19 @@ class _FormPageState extends State<FormPage> {
 
   void simpanData() {
     if (_formKey.currentState!.validate()) {
+      if (selectedTanggalHutang == null ||
+          selectedTanggalJatuhTempo == null) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("Tanggal harus dipilih")),
+        );
+        return;
+      }
+
       final data = Debt(
         nama: namaController.text,
         jumlah: int.parse(jumlahController.text),
         tanggalHutang: selectedTanggalHutang!,
-        tanggalJatuhTempo: selectedTanggalHutang!,
+        tanggalJatuhTempo: selectedTanggalJatuhTempo!,
       );
 
       widget.onSave(data);
@@ -171,7 +192,7 @@ class _FormPageState extends State<FormPage> {
                 style: ElevatedButton.styleFrom(
                   minimumSize: const Size(double.infinity, 50),
                 ),
-                child: Text(isEdit ? "Update" : "Simpan"),
+                child: Text(isEdit ? "Simpan" : "Simpan"),
               ),
             ],
           ),
