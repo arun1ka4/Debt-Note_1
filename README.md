@@ -1,6 +1,6 @@
 <h1 align="center"> DebtNote - Pencatat Hutang </h1>
 
-## ✍️Dibuat Oleh
+## Dibuat Oleh
 Nama: Nayla Lelyanggraheni Hutomo  
 Mata Kuliah: Pemrograman Berbasis Web 
 
