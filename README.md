@@ -38,7 +38,7 @@ Debtnote adalah aplikasi sederhana yang ditujukan bagi pelaku UMKM dengan tujuan
 ## UI Aplikasi
 
 ### Home Page
-<img width="750" height="1334" alt="localhost_59543_(iPhone SE)" src="https://github.com/user-attachments/assets/869759e2-7437-4dde-a4d7-130e4e4ed5f7" />
+<img width="500" height="auto" alt="localhost_59543_(iPhone SE)" src="https://github.com/user-attachments/assets/869759e2-7437-4dde-a4d7-130e4e4ed5f7" />
 
 <img width="750" height="1334" alt="localhost_59915_(iPhone SE)" src="https://github.com/user-attachments/assets/0f1ca6b8-8c53-44dd-aacf-60a9f6df4789" />
 
