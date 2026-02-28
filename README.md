@@ -34,3 +34,10 @@ Digunakan sebagai tombol aksi (Simpan, Edit, Hapus).
 
 ### Navigator
 Digunakan untuk berpindah antar halaman (Multi Page Navigation).
+
+
+## UI Aplikasi
+
+| Home Page | Dashboard | Settings |
+|:---------:|:---------:|:--------:|
+| ![](img1.png) | ![](img2.png) | ![](img3.png) |
