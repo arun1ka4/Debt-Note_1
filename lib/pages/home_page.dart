@@ -139,7 +139,6 @@ class _HomePageState extends State<HomePage> {
                       isThreeLine: true,
                     ),
 
-                    // 👇 ICON HANYA MUNCUL JIKA TERPILIH
                     if (isSelected)
                       Padding(
                         padding: const EdgeInsets.only(
